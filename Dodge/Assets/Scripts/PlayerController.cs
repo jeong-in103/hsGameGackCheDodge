@@ -7,6 +7,9 @@ public class PlayerController : MonoBehaviour
     private Rigidbody playerRigidbody;
     public float speed = 8f;
 
+    public int hp = 100;
+    public HPBar hpBar;
+
     void Start()
     {
         playerRigidbody = GetComponent<Rigidbody>();
@@ -24,11 +27,34 @@ public class PlayerController : MonoBehaviour
         playerRigidbody.velocity = newVelocity;
     }
 
-    public void Die()
+    void Die()
     {
         gameObject.SetActive(false);
 
         GameManager gameManager = FindObjectOfType<GameManager>();
         gameManager.EndGame();
+    }
+
+    public void GetDamage(int damage)
+    {
+        hp -= damage;
+        hpBar.SetHP(hp);
+
+        if(hp <= 0)
+        {
+            Die();
+        }
+    }
+
+    public void GetHeal(int heal)
+    {
+        hp += heal;
+
+        if(hp > 100)
+        {
+            hp = 100;
+        }
+
+        hpBar.SetHP(hp);
     }
 }
