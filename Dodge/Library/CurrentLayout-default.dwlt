@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 192}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 148
+  controlID: 141
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 101
+  controlID: 80
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -197,7 +197,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 147
+  controlID: 140
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 421}
   m_MaxSize: {x: 4001, y: 8021}
   vertical: 1
-  controlID: 59
+  controlID: 54
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -403,7 +403,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1c320000
+      m_SelectedIDs: 88350000
       m_LastClickedID: 0
       m_ExpandedIDs: 68fbffff
       m_RenameOverlay:
@@ -512,7 +512,7 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: C:\Users\m1209\Documents\Dodge
+  m_LastProjectPath: C:\Users\m1209\Documents\GitHub\hsGameGackCheDodge\Dodge
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
@@ -578,18 +578,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: PlayerBullet
+      m_OriginalName: PlayerBullet
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 13704
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
@@ -731,9 +731,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 293.5947, y: 236.73691, z: -107.46961}
+    m_Target: {x: 3.81426, y: 1.6073374, z: 4.5643873}
     speed: 2
-    m_Value: {x: 293.59467, y: 236.7369, z: -107.469604}
+    m_Value: {x: 3.81426, y: 1.6073374, z: 4.5643873}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -779,13 +779,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.20698677, y: 0.007926901, z: -0.0016756029, w: 0.9783074}
+    m_Target: {x: 0.031593174, y: 0.40121248, z: -0.013847315, w: 0.9153321}
     speed: 2
-    m_Value: {x: 0.20698734, y: 0.007926922, z: -0.0016756074, w: 0.9783101}
+    m_Value: {x: 0.031593267, y: 0.40121365, z: -0.013847355, w: 0.91533476}
   m_Size:
-    m_Target: 10
+    m_Target: 6.9247465
     speed: 2
-    m_Value: 10
+    m_Value: 6.9247465
   m_Ortho:
     m_Target: 0
     speed: 2
